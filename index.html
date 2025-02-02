@@ -42,8 +42,8 @@
             color: pink;
             font-size: 1em;
             font-family: sans-serif;
-            text-align: right;
-            margin-top: 10px;
+            text-align: center;
+            margin-top: 1px;
             width: 100%;
         }
     </style>
@@ -58,17 +58,5 @@
         </video>
         <div class="text-inside">credit: mqkq.1</div>
     </div>
-
-    <script>
-        const video = document.getElementById('myVideo');
-
-        video.addEventListener('loadeddata', () => {
-            video.muted = false;
-            video.volume = 1;
-        });
-
-        // REMOVED the second 'play' event listener.
-    </script>
-
 </body>
 </html>
