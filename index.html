@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸SAKURA🌸</title>
+    <style>
+        body {
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            flex-direction: column; /* Still vertical alignment */
+        }
+
+        .pink-border {
+            width: 90vw;
+            height: 90vh;
+            max-width: 900px; /* Increased max-width */
+            max-height: 700px; /* Increased max-height */
+            border: 4px solid;
+            border-image: linear-gradient(to right, #ff69b4, #ffc0cb, #ffb6c1, #ff69b4) 1;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
+            display: flex;
+            flex-direction: column; /* Vertical alignment within border */
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+        }
+
+        img {
+            max-width: 95%; /* GIF takes up more of the border */
+            max-height: 95%;
+        }
+
+        .text-inside {  /* New class for text inside border */
+            color: white;
+            font-size: 2em;
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 20px; /* Space between GIF and text */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="pink-border">
+        <img src="sakura.gif" alt="sakura">
+        <div class="text-inside">  Shannaroooo!!!!
+        </div>
+    </div>
+
+</body>
+</html>
